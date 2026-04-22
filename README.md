@@ -70,10 +70,10 @@ Após o treinamento, o modelo avalia sua performance comparando os valores reais
 
 As métricas geradas no console são:
 * **MSE (Mean Squared Error):** Penaliza erros grandes.
-* **RMSE (Root Mean Squared Error):** Erro na mesma unidade da série.
+* **RMSE (Root Mean Squared Error):** Erro na mesma unidade da série temporal.
 * **MAE (Mean Absolute Error):** Média absoluta de erro por previsão.
 
-Abaixo é possível observar um possível forecasting com os dados e hiperparâmetros utilizados.
+Abaixo é possível observar o forecasting de 200 passos a frente dos dados observados feito com o modelo treinado.
 > ![Gráfico de Previsão](forecast_plot.png)
 
 ---
